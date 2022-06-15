@@ -9,7 +9,7 @@ export function Header() {
             <Title>Inter Sign Up</Title>;
         </div>
 
-    );
+    )
  }
  export default Header;
 
