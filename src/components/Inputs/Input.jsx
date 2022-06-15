@@ -16,10 +16,6 @@ export function Enter() {
     )
 }
 
-    
- 
- export default Enter;
-
 
 
 

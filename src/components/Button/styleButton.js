@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
 export const Button = styled.button`
-    width: 81px;
-    height: 40px;
+    width: 5em;
+    height: 2.5em;
     background: #0DBDBD;
     border-radius: 10px;
     border: none;
     font-family: 'Nunito';
-    font-size: 16px;
+    font-size: 1em;
     color: #FFFFFF;
     cursor: pointer;
 `;
