@@ -1,13 +1,15 @@
 import  React from 'react';
-import { Checkbox } from './styleCheckbox';
+import { Checkbox, Terms} from './styleCheckbox';
+
 
 
 export function Check() {
+   const [terms, setTerms] = React.useState(false);
    return (
-      <label>
-         <Checkbox type="checkbox" />
+      <Terms>
+         <Checkbox type="checkbox" value="Terms" checked={terms} onChange={({target}) => setTerms(target.checked)}/>
          I accept the terms and privacy
-      </label>
+      </Terms>
    );
 }
 export default Check;

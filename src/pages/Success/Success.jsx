@@ -1,5 +1,5 @@
 import React from 'react';
-import { Body, Container, Title } from '../Home/styleHome'
+import { Body, Container, Title } from '../Success/styleSuccess'
 import { Confirm } from '../../components/Button/Button'
 import { Header } from '../../components/Header/header'
 
