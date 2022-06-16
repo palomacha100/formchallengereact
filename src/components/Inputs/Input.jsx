@@ -1,20 +1,14 @@
-import React from 'react';
-import { Input, Label } from './styleInput';
+import './input.scss'
 
-export function Enter() {
-    return (
-        <div>
-            {Array.of("Full Name *", "Email *", "Phone", "Password *", "Birthday *").map((label, index) => {
-                return (
-                    <div key={index}>
-                        <Label>{label}</Label>
-                        <Input />
-                    </div>                   
-                )
-            })}
+const Input = ({id, placeholder, type, label, value}) => {
+     return (
+        <div className="Input">
+            <label>{label}</label>
+            <input id={id}placeholder={placeholder} type={type} value={value}/>
         </div>
-    )
+        )
 }
+export default Input;
 
 
 

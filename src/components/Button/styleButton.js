@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const Button = styled.button`
-    width: 5em;
-    height: 2.5em;
+    width: 80px;
+    height: 40px;
     background: #0DBDBD;
     border-radius: 10px;
     border: none;
@@ -10,4 +10,9 @@ export const Button = styled.button`
     font-size: 1em;
     color: #FFFFFF;
     cursor: pointer;
+    &:hover {
+        background-color: #087a7a;
+        }
 `;
+
+

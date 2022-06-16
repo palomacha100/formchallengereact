@@ -1,11 +1,8 @@
-import React from 'react';
-import { Button } from './styleButton';
+// import React from 'react';
+// import { Button } from './styleButton';
 
-export function Confirm() {
-    return (
-        <Button />
-
-    );
- }
- export default Confirm;
+// const Button = ({value}) => {
+//     return <Button>{value}</Button>  
+//  }
+//  export default Button;
     

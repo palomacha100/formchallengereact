@@ -1,0 +1,43 @@
+.Input {
+  display: flex;
+  flex-direction: column;
+  label {
+    font-family: "Nunito";
+    font-size: 12px;
+    text-align: left;
+    margin-top: 0.93em;
+    color: #767676;
+  }
+  input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 2.2em;
+    background: #ffffff;
+    border: 0.125em solid #aaaaaa;
+    border-radius: 0.25em;
+    padding: 0.3em;
+    margin-bottom: 0.625em;
+    &::placeholder {
+      height: 18px;
+      font-family: "Nunito";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      color: #767676;
+    }
+  }
+  #submit {
+    width: 80px;
+    height: 40px;
+    background: #0dbdbd;
+    border-radius: 10px;
+    border: none;
+    font-family: "Nunito";
+    font-size: 1em;
+    color: #ffffff;
+    cursor: pointer;
+    &:hover {
+      background-color: #087a7a;
+    }
+  }
+}

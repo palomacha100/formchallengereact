@@ -1,6 +1,5 @@
-import React from 'react';
 import { Body, Container, Title } from '../Success/styleSuccess'
-import { Confirm } from '../../components/Button/Button'
+// import { Button } from '../../components/Button/Button'
 import { Header } from '../../components/Header/header'
 
 export function Success() {
@@ -9,7 +8,7 @@ export function Success() {
       <Container>
         <Header />
         <Title>Success!</Title>     
-        <Confirm />
+        {/* <Button value="Go Back!"/> */}
       </Container>
     </Body>
         
