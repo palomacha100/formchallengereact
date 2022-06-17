@@ -6,8 +6,9 @@ const Input = ({id, placeholder, type, label, value}) => {
             <label>{label}</label>
             <input id={id}placeholder={placeholder} type={type} value={value}/>
         </div>
-        )
+    )
 }
+
 export default Input;
 
 

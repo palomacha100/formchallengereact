@@ -1,10 +1,8 @@
 import React from 'react';
 import { Body, Container, Title } from './styleHome'
-// import  Confirm  from '../../components/Button/Button'
 import  Header  from '../../components/Header/header'
-import  Check  from '../../components/Checkbox/Checkbox'
 import Input  from '../../components/Inputs/input';
-
+import Footer from '../../components/Footer/Footer'
 
 export function Home() {
   return (
@@ -23,12 +21,9 @@ export function Home() {
             <Input label="Birthday *" type="date"/>         
           </div>     
         </form>
-
-        <Check />  
-        <Input id="submit" placeholder="Name" type="submit" value="Register"/>
+        <Footer id="check" type="checkbox" htmlFor="check" label="I accept the terms and privacy" idSubmit="submit" typeButton="submit" value="Register"/>
       </Container>
-    </Body>
-        
+    </Body>        
   );
 }
 
