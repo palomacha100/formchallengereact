@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const CheckBoxContainer = styled.div`
     display: flex;
     width: 100%;
-    margin: 15px 35px;
+    margin: 15px 30px;
 
   > input {
     display: none;

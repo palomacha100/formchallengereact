@@ -14,15 +14,9 @@ const Footer = ({ label, onSubmit }) => {
     <FooterContainer>
       <LabelContainer>
         <CheckBox text="I accept the terms and privacy" />
-      </LabelContainer>
-      
+      </LabelContainer>      
       <ButtonContainer>
-        <Button
-          type="button"
-          onClick={onSubmit}
-        >
-          {label}
-        </Button>
+        <Button type="button" onClick={onSubmit}>{label}</Button>
       </ButtonContainer>
     </FooterContainer>
   )
