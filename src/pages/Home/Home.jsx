@@ -70,8 +70,7 @@ export function Home() {
             <Input label="Birthday *" type="date" span="Age Invalid"/>         
           </PasswordContainer>     
         </form>
-        <Footer id="check" onSubmit={handleSubmit} label="Register" span="You must accept the terms"
-        />
+        <Footer id="check" onSubmit={handleSubmit} label="Register" span="You must accept the terms"/>
       </Container>
     </Body>        
   );

@@ -20,8 +20,8 @@ const CheckBoxContainer = styled.div`
   margin-right: 5px;
   vertical-align: middle;
   filter: drop-shadow(2px 2px 2px #767676);
+}
 
-  }
   label {
     filter: drop-shadow(2px 2px 2px #767676);
     font-weight: 700;
@@ -33,6 +33,10 @@ const CheckBoxContainer = styled.div`
     font-size: 12px;
     color: #FF0000;
     font-weight: 700;
+  }
+
+  @media(max-width: 768px) {
+    margin: 0 0 20px 0;
   }
 `;
 

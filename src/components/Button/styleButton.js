@@ -7,12 +7,16 @@ const Button = styled.button`
   border-radius: 10px;
   border: none;
   font-family: "Nunito";
-  font-size: 1em;
+  font-size: 16px;
   color: #ffffff;
   cursor: pointer;
   &:hover {
     background-color: #087a7a;
-  } 
+  }
+
+  @media(max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 export { Button };

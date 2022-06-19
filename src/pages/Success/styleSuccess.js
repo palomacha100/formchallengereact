@@ -12,6 +12,13 @@ export const Container = styled.div`
     margin-left: auto;
     background-color: white;
 
+    @media(max-width: 768px) {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      margin-top: 50px;
+    }
+
     > div {
         display: flex;
         flex-direction: column;
@@ -28,5 +35,10 @@ export const Container = styled.div`
 export const Body = styled.body`
     background-color: #E5E5E5;
     padding: 30px;
+
+    @media(max-width: 768px) {
+      background-color: white;
+      padding: 5px;
+    }
 `;
 

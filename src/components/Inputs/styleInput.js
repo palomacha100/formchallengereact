@@ -11,9 +11,13 @@ const Label = styled.label`
   font-family: "Nunito";
   font-size: 13px;
   text-align: left;
-  margin-top: 0.93em;
+  margin-top: 15px;
   color: #767676;
   font-weight: 700;
+
+  @media(max-width: 768px) {
+    margin-top: 5px;
+  }
 `;
 
 const InputStyle = styled.input`
@@ -21,9 +25,9 @@ const InputStyle = styled.input`
   width: 100%;
   height: 2.2em;
   background: #ffffff;
-  border: 0.125em solid #aaaaaa;
-  border-radius: 0.25em;
-  padding: 0.3em;
+  border: 1px solid #aaaaaa;
+  border-radius: 3px;
+  padding: 5px;
 
   &::placeholder {
     height: 18px;

@@ -5,22 +5,32 @@ const FooterContainer = styled.div`
   flex: 1;
   width: 100%;
   padding: 16px;
-  margin-bottom: 8%; 
+  margin-bottom:10%; 
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 768px){
+    flex-direction: column;
+  }
 `;
 
 const LabelContainer = styled.div`
-  display: flex;
-  
+  display: flex;  
   font-family: 'Nunito';
   font-size: 14px;
   text-align: left;
+  @media(max-width: 768px) {
+    width: 100%;
+  }
 `;
 
 const ButtonContainer = styled.div`
   display: flex;
-  margin: 15px 25px;
+  margin: 0 25px 0 25px;
+
+  @media(max-width: 768px) {
+    width: 100%;
+  }
   
 `;
 
