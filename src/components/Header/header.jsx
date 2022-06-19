@@ -1,12 +1,17 @@
 import React from 'react';
-import { Image } from './styleHeader';
+import { Image, Container } from './styleHeader';
 import imageTop from '../../assets/imageTop.png';
 
-export function Header() {
+export function Header({ title }) {
     return (
-        <div>
-            <Image src={imageTop} />
-        </div>
+        <Container>
+            <div>
+                <Image src={imageTop} />
+            </div>
+            <div>
+                <h1>{title}</h1>
+            </div>
+        </Container>
 
     )
  }

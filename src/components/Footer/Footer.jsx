@@ -1,20 +1,31 @@
-import './footer.scss'
+import React from 'react'
+import { 
+  FooterContainer,
+  LabelContainer,
+  ButtonContainer
+} from '../Footer/styleFooter'
 
-const Footer = ({id, type, htmlFor, label, idSubmit, value, typeButton}) => {
-   return (
-      <footer classname="footer">
-         <div classname="footerGroup1">
-            <input id={id} type={type} />
-            <label htmlFor={htmlFor}>{label}</label>
-         </div>
-         <div classname="footerGroup2">
-            <input id={idSubmit} value={value} type={typeButton} />
-         </div>
-      </footer>
-   )
+import { Button } from '../Button/styleButton'
+import { CheckBox } from '../CheckBox/checkbox'
+
+const Footer = ({ label, onSubmit }) => {
+
+  return (
+    <FooterContainer>
+      <LabelContainer>
+        <CheckBox text="I accept the terms and privacy" />
+      </LabelContainer>
+      
+      <ButtonContainer>
+        <Button
+          type="button"
+          onClick={onSubmit}
+        >
+          {label}
+        </Button>
+      </ButtonContainer>
+    </FooterContainer>
+  )
 }
 
 export default Footer;
-
-
-
