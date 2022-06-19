@@ -1,6 +1,5 @@
 import { Body, Container } from '../Success/styleSuccess'
 import { Header } from '../../components/Header/header'
-import { ButtonContainer } from '../../components/Footer/styleFooter';
 import { Button } from '../../components/Button/styleButton';
 
 export function Success() {

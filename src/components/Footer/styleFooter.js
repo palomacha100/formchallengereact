@@ -19,6 +19,7 @@ const LabelContainer = styled.div`
   font-family: 'Nunito';
   font-size: 14px;
   text-align: left;
+  
   @media(max-width: 768px) {
     width: 100%;
   }
