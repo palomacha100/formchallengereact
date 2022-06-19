@@ -31,7 +31,7 @@ export const Container = styled.div`
 
 export const Body = styled.body`
     background-color: #E5E5E5;
-    padding: 1em;
+    padding: 30px;
 `;
 
 export const ContactContainer = styled.div`

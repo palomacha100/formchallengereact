@@ -1,28 +1,32 @@
 import styled from 'styled-components';
 
-
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 37em;
-    width: 30em;
+    height: 580px;
+    width: 490px;
     border-radius: 1em;
     margin-right: auto;
     margin-left: auto;
     background-color: white;
+
+    > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    > div > Button {
+        margin-top: 40px;
+        width: 220px;
+        height: 150px;
+        font-size: 36px;       
+    }
 `;
 
 export const Body = styled.body`
     background-color: #E5E5E5;
-    padding: 1em;
+    padding: 30px;
 `;
 
-export const Title = styled.h1`
-    font-family: 'Inter';
-    font-weight: 500;
-    font-size: 2.25em;
-    color: #111111;
-    margin-top: 0.6px;
-`;
