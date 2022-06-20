@@ -6,7 +6,6 @@ const CheckBox = ({ checked, text, onClick, span }) => {
       <CheckBoxContainer>
           <input type="checkbox" name="acceptTerms" id="acceptTerms" />
           <label for="acceptTerms" >{text}</label>
-          <span>{span}</span>
       </CheckBoxContainer>
   )
 }

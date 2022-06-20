@@ -31,8 +31,6 @@ const ButtonContainer = styled.div`
   @media(max-width: 768px) {
     width: 100%;
   }
-  
 `;
-
 
 export { FooterContainer, LabelContainer, ButtonContainer };

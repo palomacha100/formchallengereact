@@ -37,14 +37,17 @@ const InputStyle = styled.input`
     font-size: 12px;
     color: #767676;
   }
+
 `;
 
-const SpanError =styled.span `
-    height: 18px;
-    font-family: "Nunito";
-    font-size: 12px;
-    color: #FF0000;
-    font-weight: 700;
+const LabelError = styled.label`
+  font-family: "Nunito";
+  font-size: 13px;
+  text-align: left;
+  margin-top: 15px;
+  color: #FF0000;
+  font-weight: 700;
+
 `;
 
-export { Label, InputStyle, Container, SpanError };
+export { Label, InputStyle, Container, LabelError };

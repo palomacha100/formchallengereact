@@ -28,7 +28,13 @@ export const Container = styled.div`
         margin-top: 40px;
         width: 220px;
         height: 150px;
-        font-size: 36px;       
+        font-size: 36px;
+        
+        @media(max-width: 768px) {
+            width: 100%;
+            height: 60px;
+        }
+        
     }
 `;
 
