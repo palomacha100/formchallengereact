@@ -5,6 +5,7 @@ const Container = styled.div`
   flex-direction: column;
   flex: 1;
   padding: 5px;
+  height: 80px;
 `;
 
 const Label = styled.label`
@@ -44,7 +45,7 @@ const LabelError = styled.label`
   font-family: "Nunito";
   font-size: 13px;
   text-align: left;
-  margin-top: 15px;
+  margin-top: 5px;
   color: #FF0000;
   font-weight: 700;
 
